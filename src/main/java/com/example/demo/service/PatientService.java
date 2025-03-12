@@ -28,13 +28,12 @@ public class PatientService {
         repo.save(patient);
     }
     public void update(Patient patient) {
-        repo.save(patient);
-    }
+
+            repo.save(patient);
+        }
     public void delete(Long id) {
         repo.deleteById(id);
-
     }
-
 
 }
 
